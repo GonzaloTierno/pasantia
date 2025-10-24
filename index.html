@@ -1,0 +1,149 @@
+<hmtl>
+
+  <head>
+    <style>
+      #hl {
+        width: 60px;
+        height: 60px;
+      }
+
+      #titulo {
+        display: flex;
+        gap: 50px;
+        align-items: center
+      }
+
+      #navegacion {
+        display: flex;
+        justify-content: space-around;
+        color: white;
+        background-color: orangered;
+      }
+
+      body {
+        background-color: orange;
+      }
+
+      #hostiles {
+        color: red;
+      }
+
+      #aliados {
+        color: green;
+      }
+
+      .personaje {
+        display: flex;
+        justify-content: center;
+        padding: 0% 2%;
+      }
+
+      .imagen_nombre {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .imagen_nombre img {
+        width: 170%;
+      }
+
+      .descripcion {
+        padding: 1% 5% 1% 5%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="titulo">
+      <img id="hl" src="https://pngimg.com/d/Half-Life_PNG37.png">
+      <h1>Half-Life.web</h1>
+    </div>
+    <div id="navegacion">
+
+      <div><a>Inicio</a></div>
+      <div><a>Historia</a></div>
+      <div><a>Personajes</a></div>
+      <div><a>Enemigos</a></div>
+      <div><a>Mapas</a></div>
+    </div>
+    <div id="historia">
+      <h1>Historia</h1>
+      <p>Half-Life es un videojuego de disparos en primera persona del género ciencia ficción, con toques de
+        techno-thriller, desarrollado por Valve Corporation. Supuso este juego el debut de la compañía y el primero de
+        lo que posteriormente pasaría a ser la serie Half-Life. El título, distribuido por Sierra Studios, fue lanzado
+        el 19 de noviembre de 1998.
+        <br>
+        <br>
+        Narra las aventuras de Gordon Freeman, un científico teórico del Laboratorio de Materiales Anómalos del Centro
+        de Investigación Black Mesa, un enorme complejo científico subterráneo y ultrasecreto instalado en una base
+        militar en desuso emplazada en el desierto de Nuevo México. Este lugar tiene muchas similitudes con el
+        Laboratorio Nacional de Los Álamos y el Área 51.
+      </p>
+    </div>
+    <h2 id="aliados">Personajes:</h2>
+    <div class="personajes">
+      <div class="personaje">
+        <div class="imagen_nombre">
+          <img
+            src="data:image/jpeg;base64,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">
+          <p>Gordon Freeman</p>
+        </div>
+        <div class="descripcion">
+          <p>Es el protagonista del juego. Doctorado en física teórica, Gordon es un
+            brillante y
+            joven investigador asignado en el departamento de Materiales Anómalos del centro de investigación Black
+            Mesa, donde se llevan a cabo investigaciones de alto secreto, tales como materia nuclear y física de
+            partículas. Aunque no se sabe si Gordon Freeman tenía conocimientos en el uso de armas de fuego antes del
+            incidente, después que este se produjo durante el experimento en el que participó, demostró formidables
+            habilidades en el uso de diversas armas para defenderse de los ataques de los alienígenas xenianos y de los
+            soldados del gobierno, quienes habían sido enviados para evitar que salieran a la luz los propósitos del
+            experimento. Gordon es un hombre esbelto, de piel blanca y cabello castaño corto, lleva una barba corta tipo
+            candado y un par de lentes. Siempre se representa usando su traje de protección naranja, con su
+            característica palanca roja en la mano.
+          </p>
+        </div>
+      </div>
+
+
+    </div>
+    <h2 id="hostiles">Enemigos:</h2>
+    <div>
+      <h2>Los Capitulos de la Historia</h2>
+      <ul>
+        <b>
+          <li>Capítulo 1 - Bienvenido a Black Mesa</li>
+          <li>Capítulo 2 - Materiales Anómalos</li>
+          <li>Capítulo 3 - Consecuencias imprevistas</li>
+          <li>Capítulo 4 - Complejo de oficinas</li>
+          <li>Capítulo 5 - Tenemos hostiles</li>
+          <li>Capítulo 6 - Foso explosivo</li>
+          <li>Capítulo 7 - Energía</li>
+          <li>Capítulo 8 - Sobre rieles</li>
+          <li>Capítulo 9 - Captura</li>
+          <li>Capítulo 10 - Proceso de residuos</li>
+          <li>Capítulo 11 - Ética cuestionable</li>
+          <li>Capítulo 12 - Tensión superficial</li>
+          <li>Capítulo 13 - ¡Olvídate de Freeman!</li>
+          <li>Capítulo 14 - Núcleo Lambda</li>
+          <li>Capítulo 15 - Xen</li>
+          <li>Capítulo 16 - El escondite de Gonarch</li>
+          <li>Capítulo 17 - Intruso</li>
+          <li>Capítulo 18 - Nihilanth</li>
+          <li>Epílogo - Final del Juego</li>
+
+          <h2>Mapas Del Modo Multijugador</h2>
+          <li>bootcamp</li>
+          <li>bounce</li>
+          <li>datacore</li>
+          <li>lambda_bunker</li>
+          <li>snark_pit</li>
+          <li>stalkyard</li>
+          <li>subtransit</li>
+          <li>undertow</li>
+        </b>
+      </ul>
+    </div>
+  </body>
+
+  </html>
